@@ -1,0 +1,16 @@
+mdab0_si1039 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr1/mdab0/si1039.wav |
+mdab0_si1669 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr1/mdab0/si1669.wav |
+mdab0_si2299 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr1/mdab0/si2299.wav |
+mdab0_sx139 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr1/mdab0/sx139.wav |
+mdab0_sx229 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr1/mdab0/sx229.wav |
+mdab0_sx319 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr1/mdab0/sx319.wav |
+mdab0_sx409 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr1/mdab0/sx409.wav |
+mdab0_sx49 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr1/mdab0/sx49.wav |
+mgrt0_si1450 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr7/mgrt0/si1450.wav |
+mgrt0_si2080 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr7/mgrt0/si2080.wav |
+mgrt0_si820 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr7/mgrt0/si820.wav |
+mgrt0_sx10 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr7/mgrt0/sx10.wav |
+mgrt0_sx100 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr7/mgrt0/sx100.wav |
+mgrt0_sx190 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr7/mgrt0/sx190.wav |
+mgrt0_sx280 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr7/mgrt0/sx280.wav |
+mgrt0_sx370 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/../../../tools/sph2pipe_v2.5/sph2pipe -f wav /Users/zhuhuifeng/work/asr/data/timit/test/dr7/mgrt0/sx370.wav |

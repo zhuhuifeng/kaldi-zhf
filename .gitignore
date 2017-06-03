@@ -1,0 +1,45 @@
+# 忽略egs下的timit目录下的data，exp，data-fmllr-tri3三个目录
+egs/timit/s5/data
+egs/timit/s5/exp
+egs/timit/s5/data-fmllr-tri3
+
+# 忽略tools下安装文件
+tools/openfst-1.6.2
+tools/irstlm
+tools/openfst
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#
+*.gz

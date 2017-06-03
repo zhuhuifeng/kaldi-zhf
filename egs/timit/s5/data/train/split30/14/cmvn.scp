@@ -1,0 +1,15 @@
+mdns0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:49251
+mdpb0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:49496
+mdpk0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:49741
+mdps0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:49986
+mdrd0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:50231
+mdsj0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:50476
+mdss0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:50721
+mdss1 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:50966
+mdtb0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:51211
+mdwd0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:51456
+mdwh0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:51701
+mdwm0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:51946
+meal0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:52191
+medr0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:52436
+mefg0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_train.ark:52681

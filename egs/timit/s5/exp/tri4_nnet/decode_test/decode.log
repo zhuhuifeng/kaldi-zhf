@@ -1,0 +1,2 @@
+steps/nnet2/decode.sh --cmd queue.pl --mem 4G --nj 5 --num-threads 6 --transform-dir exp/tri3/decode_test exp/tri3/graph data/test exp/tri4_nnet/decode_test
+steps/nnet2/decode.sh: no such file exp/tri3/graph/HCLG.fst
