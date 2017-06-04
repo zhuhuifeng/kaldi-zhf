@@ -3,6 +3,8 @@
 # Copyright 2012  Johns Hopkins University (Author: Daniel Povey)
 # Apache 2.0
 
+# checking file for mono training zhuhuifeng@20170604
+
 # Begin configuration.
 stage=-4 #  This allows restarting after partway, when something when wrong.
 config=
@@ -22,6 +24,7 @@ norm_vars=false # deprecated.  Prefer --cmvn-opts "--norm-vars=true"
 cmvn_opts=
 delta_opts=
 context_opts=   # use"--context-width=5 --central-position=2" for quinphone
+force=false # when force is true, it will run the script without checking the result files
 # End configuration.
 
 echo "$0 $@"  # Print the command line for logging
@@ -49,6 +52,11 @@ dir=$6
 for f in $alidir/final.mdl $alidir/ali.1.gz $data/feats.scp $lang/phones.txt; do
   [ ! -f $f ] && echo "train_deltas.sh: no such file $f" && exit 1;
 done
+
+# check whether the final model exists and determine if exit the training
+if ! $force ; then
+	[ -f $dir/$num_iters.mdl ] && [ -f $dir/$num_iters.occs ] && exit 0
+fi
 
 numgauss=$numleaves
 incgauss=$[($totgauss-$numgauss)/$max_iter_inc] # per-iter increment for #Gauss

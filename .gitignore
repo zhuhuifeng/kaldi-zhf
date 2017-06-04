@@ -2,6 +2,7 @@
 egs/timit/s5/data
 egs/timit/s5/exp
 egs/timit/s5/data-fmllr-tri3
+egs/timit/s5/mfcc
 
 # 忽略tools下安装文件
 tools/openfst-1.6.2
