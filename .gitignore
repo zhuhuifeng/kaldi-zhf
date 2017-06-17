@@ -1,13 +1,13 @@
-# 忽略egs下的timit目录下的data，exp，data-fmllr-tri3三个目录
-egs/timit/s5/data/*
-egs/timit/s5/exp/*
-egs/timit/s5/data-fmllr-tri3/*
-egs/timit/s5/mfcc/*
+# 忽略egs下的timit目录下的data，exp，data-fmllr-tri3三个目录下所有的文件
+egs/timit/s5/data/
+egs/timit/s5/exp/
+egs/timit/s5/data-fmllr-tri3/
+egs/timit/s5/mfcc/
 
 # 忽略tools下安装文件
-tools/openfst-1.6.2
-tools/irstlm
-tools/openfst
+tools/openfst-1.6.2/
+tools/irstlm/
+tools/openfst/
 
 # Prerequisites
 *.d
