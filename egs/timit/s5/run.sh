@@ -42,8 +42,6 @@ local/timit_data_prep.sh $timit || exit 1
 
 local/timit_prepare_dict.sh
 
-exit 0
-
 # Caution below: we remove optional silence by setting "--sil-prob 0.0",
 # in TIMIT the silence appears also as a word in the dictionary and is scored.
 utils/prepare_lang.sh --sil-prob 0.0 --position-dependent-phones false --num-sil-states 3 \
@@ -96,7 +94,7 @@ steps/decode.sh --nj "$decode_nj" --cmd "$decode_cmd" \
 
 steps/decode.sh --nj "$decode_nj" --cmd "$decode_cmd" \
  exp/tri1/graph data/test exp/tri1/decode_test
-exit 1
+
 echo ============================================================================
 echo "                 tri2 : LDA + MLLT Training & Decoding                    "
 echo ============================================================================
@@ -136,6 +134,7 @@ steps/decode_fmllr.sh --nj "$decode_nj" --cmd "$decode_cmd" \
 steps/decode_fmllr.sh --nj "$decode_nj" --cmd "$decode_cmd" \
  exp/tri3/graph data/test exp/tri3/decode_test
 
+exit 0
 echo ============================================================================
 echo "                        SGMM2 Training & Decoding                         "
 echo ============================================================================

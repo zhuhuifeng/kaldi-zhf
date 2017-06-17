@@ -1,5 +1,5 @@
 # lattice-best-path --lm-scale=9 --word-symbol-table=exp/mono/graph/words.txt --verbose=2 "ark:gunzip -c exp/mono/decode_test/lat.5.gz|" ark,t:exp/mono/decode_test/scoring/9.5.tra 
-# Started at Tue May 30 21:28:17 CST 2017
+# Started at Wed Jun  7 22:33:30 CST 2017
 #
 lattice-best-path --lm-scale=9 --word-symbol-table=exp/mono/graph/words.txt --verbose=2 'ark:gunzip -c exp/mono/decode_test/lat.5.gz|' ark,t:exp/mono/decode_test/scoring/9.5.tra 
 LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:99) For utterance mtas1_si1473, best cost 477.556 + 14241.6 = 14719.1 over 145 frames.
@@ -58,7 +58,7 @@ LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:99) For utter
 mwew0_si731 sil dh ax th iy y uw z l ey dx er dh ix vcl d ow m cl t eh l ax n h#n 
 LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:99) For utterance mwew0_sx101, best cost 1087.23 + 38441.8 = 39529 over 392 frames.
 mwew0_sx101 sil dh ih n ix vcl g er n sh ow dx ix n vcl d eh cl t r ey cl t ix cl k w eh cl ch uw z f r ao l ow dh ey s h#n 
-LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:99) For utterance mwew0_sx11, best cost 399.052 + 15840.6 = 16239.6 over 166 frames.
+LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:99) For utterance mwew0_sx11, best cost 399.052 + 15840.6 = 16239.7 over 166 frames.
 mwew0_sx11 sil y uw l aw ao r eh er l ay h#n 
 LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:99) For utterance mwew0_sx191, best cost 765.561 + 24250.8 = 25016.4 over 251 frames.
 mwew0_sx191 sil w ix vcl d r ao l f ao dx iy eh cl k iy z ey sh en z ih w ax cl s h#n 
@@ -68,5 +68,5 @@ LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:99) For utter
 mwew0_sx371 sil r ey n aw m ey n ae cl p iy dx ix vcl b ah s cl t ae f er vcl b ih z en s epi m er vcl jh er z h#n 
 LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:124) Overall cost per frame is 100.753 = 3.02918 [graph] + 97.7242 [acoustic] over 9592 frames.
 LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:128) Done 32 lattices, failed for 0
-# Accounting: time=2 threads=1
-# Ended (code 0) at Tue May 30 21:28:19 CST 2017, elapsed time 2 seconds
+# Accounting: time=1 threads=1
+# Ended (code 0) at Wed Jun  7 22:33:31 CST 2017, elapsed time 1 seconds

@@ -1,8 +1,8 @@
-# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/dev/wav_dev.4.scp ark:- | copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_dev.4.ark,/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_dev.4.scp 
-# Started at Wed May 31 15:13:38 CST 2017
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/dev/wav_dev.4.scp ark:- | copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_dev.4.ark,/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_dev.4.scp 
+# Started at Wed Jun  7 22:27:50 CST 2017
 #
 compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/dev/wav_dev.4.scp ark:- 
-copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_dev.4.ark,/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_dev.4.scp 
+copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_dev.4.ark,/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_dev.4.scp 
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key fnmr0_si1399
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key fnmr0_si2029
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key fnmr0_si769
@@ -49,5 +49,5 @@ LOG (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:177) Proces
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key mbdg0_sx383
 LOG (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:181)  Done 40 out of 40 utterances.
 LOG (copy-feats[5.1.89~1-b1e86]:main():copy-feats.cc:132) Copied 40 feature matrices.
-# Accounting: time=2 threads=1
-# Ended (code 0) at Wed May 31 15:13:41 CST 2017, elapsed time 2 seconds
+# Accounting: time=3 threads=1
+# Ended (code 0) at Wed Jun  7 22:27:53 CST 2017, elapsed time 3 seconds

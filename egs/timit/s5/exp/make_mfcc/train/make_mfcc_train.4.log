@@ -1,8 +1,8 @@
-# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.4.scp ark:- | copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.4.ark,/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.4.scp 
-# Started at Wed May 31 16:34:04 CST 2017
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.4.scp ark:- | copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.4.ark,/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.4.scp 
+# Started at Wed Jun  7 22:26:46 CST 2017
 #
-copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.4.ark,/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.4.scp 
 compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.4.scp ark:- 
+copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.4.ark,/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.4.scp 
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key madd0_sx448
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key madd0_sx88
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key maeb0_si1411
@@ -413,4 +413,4 @@ VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Pr
 LOG (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:181)  Done 370 out of 370 utterances.
 LOG (copy-feats[5.1.89~1-b1e86]:main():copy-feats.cc:132) Copied 370 feature matrices.
 # Accounting: time=23 threads=1
-# Ended (code 0) at Wed May 31 16:34:27 CST 2017, elapsed time 23 seconds
+# Ended (code 0) at Wed Jun  7 22:27:09 CST 2017, elapsed time 23 seconds

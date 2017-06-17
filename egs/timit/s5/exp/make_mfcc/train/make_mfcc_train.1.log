@@ -1,8 +1,8 @@
-# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.1.ark,/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.1.scp 
-# Started at Wed May 31 16:34:04 CST 2017
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.1.ark,/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.1.scp 
+# Started at Wed Jun  7 22:26:46 CST 2017
 #
 compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- 
-copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.1.ark,/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.1.scp 
+copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.1.ark,/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.1.scp 
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key faem0_si1392
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key faem0_si2022
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key faem0_si762
@@ -413,4 +413,4 @@ VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Pr
 LOG (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:181)  Done 370 out of 370 utterances.
 LOG (copy-feats[5.1.89~1-b1e86]:main():copy-feats.cc:132) Copied 370 feature matrices.
 # Accounting: time=24 threads=1
-# Ended (code 0) at Wed May 31 16:34:28 CST 2017, elapsed time 24 seconds
+# Ended (code 0) at Wed Jun  7 22:27:10 CST 2017, elapsed time 24 seconds

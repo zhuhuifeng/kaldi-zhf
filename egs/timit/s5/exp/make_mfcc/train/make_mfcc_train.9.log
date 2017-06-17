@@ -1,7 +1,7 @@
-# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.9.scp ark:- | copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.9.ark,/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.9.scp 
-# Started at Wed May 31 15:13:21 CST 2017
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.9.scp ark:- | copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.9.ark,/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.9.scp 
+# Started at Wed Jun  7 22:27:32 CST 2017
 #
-copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.9.ark,/Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/raw_mfcc_train.9.scp 
+copy-feats --compress=true ark:- ark,scp:/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.9.ark,/Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/raw_mfcc_train.9.scp 
 compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.9.scp ark:- 
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key mrgm0_sx442
 VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Processed features for key mrgm0_sx82
@@ -411,4 +411,4 @@ VLOG[2] (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:178) Pr
 LOG (compute-mfcc-feats[5.1.89~1-b1e86]:main():compute-mfcc-feats.cc:181)  Done 369 out of 369 utterances.
 LOG (copy-feats[5.1.89~1-b1e86]:main():copy-feats.cc:132) Copied 369 feature matrices.
 # Accounting: time=16 threads=1
-# Ended (code 0) at Wed May 31 15:13:37 CST 2017, elapsed time 16 seconds
+# Ended (code 0) at Wed Jun  7 22:27:48 CST 2017, elapsed time 16 seconds

@@ -1,4 +1,4 @@
-mtas1 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_test.ark:4906
-mtls0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_test.ark:5151
-mwbt0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_test.ark:5396
-mwew0 /Users/zhuhuifeng/work/asr/kaldi/egs/timit/s5/mfcc/cmvn_test.ark:5641
+mtas1 /Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/cmvn_test.ark:4906
+mtls0 /Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/cmvn_test.ark:5151
+mwbt0 /Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/cmvn_test.ark:5396
+mwew0 /Users/zhuhuifeng/work/asr/github/kaldi-zhf/egs/timit/s5/mfcc/cmvn_test.ark:5641

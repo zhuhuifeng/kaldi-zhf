@@ -35,6 +35,7 @@ context_opts=   # use "--context-width=5 --central-position=2" for quinphone.
 # End configuration.
 train_tree=true  # if false, don't actually train the tree.
 use_lda_mat=  # If supplied, use this LDA[+MLLT] matrix.
+force=false # when force is true, it will run the script without checking the result files
 
 echo "$0 $@"  # Print the command line for logging
 
@@ -61,6 +62,11 @@ dir=$6
 for f in $alidir/final.mdl $alidir/ali.1.gz $data/feats.scp $lang/phones.txt; do
   [ ! -f $f ] && echo "train_lda_mllt.sh: no such file $f" && exit 1;
 done
+
+# check whether the final model exists and determine if exit the training
+if ! $force ; then
+	[ -f $dir/$num_iters.mdl ] && [ -f $dir/$num_iters.occs ] && [ -f $dir/final.mat ] && exit 0
+fi
 
 numgauss=$numleaves
 incgauss=$[($totgauss-$numgauss)/$max_iter_inc] # per-iter #gauss increment

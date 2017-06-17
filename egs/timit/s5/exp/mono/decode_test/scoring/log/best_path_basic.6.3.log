@@ -1,5 +1,5 @@
 # lattice-best-path --lm-scale=6 --word-symbol-table=exp/mono/graph/words.txt --verbose=2 "ark:gunzip -c exp/mono/decode_test/lat.3.gz|" ark,t:exp/mono/decode_test/scoring/6.3.tra 
-# Started at Tue May 30 21:28:06 CST 2017
+# Started at Wed Jun  7 22:33:23 CST 2017
 #
 lattice-best-path --lm-scale=6 --word-symbol-table=exp/mono/graph/words.txt --verbose=2 'ark:gunzip -c exp/mono/decode_test/lat.3.gz|' ark,t:exp/mono/decode_test/scoring/6.3.tra 
 LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:99) For utterance mdab0_si1039, best cost 1036.05 + 39649.7 = 40685.7 over 392 frames.
@@ -84,5 +84,5 @@ LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:99) For utter
 mjmp0_sx95 sil hh iy cl k l aa dx ix z ix n ae l ix vcl g ih v er sh ix cl t ae cl p ax cl k ao r ah cl t ay l z h#n 
 LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:124) Overall cost per frame is 99.8967 = 2.0987 [graph] + 97.798 [acoustic] over 12254 frames.
 LOG (lattice-best-path[5.1.89~1-b1e86]:main():lattice-best-path.cc:128) Done 40 lattices, failed for 0
-# Accounting: time=3 threads=1
-# Ended (code 0) at Tue May 30 21:28:09 CST 2017, elapsed time 3 seconds
+# Accounting: time=2 threads=1
+# Ended (code 0) at Wed Jun  7 22:33:25 CST 2017, elapsed time 2 seconds

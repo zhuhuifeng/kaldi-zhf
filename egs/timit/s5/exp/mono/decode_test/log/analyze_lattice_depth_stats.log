@@ -1,5 +1,5 @@
 # gunzip -c exp/mono/decode_test/depth_stats_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py exp/mono/graph 
-# Started at Tue May 30 21:27:49 CST 2017
+# Started at Wed Jun  7 22:33:13 CST 2017
 #
 The total amount of data analyzed assuming 100 frames per second is 0.2 hours
 Overall, lattice depth (10,50,90-percentile)=(5,27,147) and mean=96.7
@@ -48,5 +48,5 @@ Phone ch accounts for 0.6% of frames, with lattice depth (10,50,90-percentile)=(
 Phone y accounts for 0.6% of frames, with lattice depth (10,50,90-percentile)=(9,30,140) and mean=52.2
 Phone en accounts for 0.6% of frames, with lattice depth (10,50,90-percentile)=(9,40,115) and mean=52.5
 Phone th accounts for 0.5% of frames, with lattice depth (10,50,90-percentile)=(30,56,167) and mean=91.5
-# Accounting: time=1 threads=1
-# Ended (code 0) at Tue May 30 21:27:50 CST 2017, elapsed time 1 seconds
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Jun  7 22:33:13 CST 2017, elapsed time 0 seconds
